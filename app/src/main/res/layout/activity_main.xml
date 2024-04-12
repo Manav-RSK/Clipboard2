@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#565945"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtHead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="CLIPBOARD"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtWrite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Write here"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#838383" />
+
+    <Button
+        android:id="@+id/btnupload"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#000000"
+        android:text="UPLOAD"
+        android:textColor="#FFF6C5"
+        app:cornerRadius="5dp" />
+
+    <EditText
+        android:id="@+id/edtRead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="Read here"
+        android:inputType="text"
+        android:isScrollContainer="true"
+        android:nestedScrollingEnabled="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#838383" />
+
+    <Button
+        android:id="@+id/btnfetch"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#000000"
+        android:text="Fetch"
+        android:textAllCaps="true"
+        android:textColor="#FFF6C5"
+        app:cornerRadius="5dp" />
+
+    <TextView
+        android:id="@+id/code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="CODE"
+        android:textColor="#FFD500"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+</LinearLayout>

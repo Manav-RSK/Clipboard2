@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "966049881882",
+    "project_id": "clipboard-2fd3a",
+    "storage_bucket": "clipboard-2fd3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966049881882:android:19b7e7e2c56c957fa456a3",
+        "android_client_info": {
+          "package_name": "com.example.clipboard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI24-h-_L_BPazvoqEVSkbQxbgLYC0el0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
